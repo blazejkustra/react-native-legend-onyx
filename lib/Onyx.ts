@@ -193,10 +193,3 @@ const Onyx = {
 (globalThis as any).onyxData = observableData;
 
 export default Onyx;
-
-// TODO:
-// - Evictable keys
-// - Snapshots
-// - persistence
-// - [isOnyxMigrated, setIsOnyxMigrated] = useState(true);
-// - disconnect inside of connect // treat it as an anti pattern
