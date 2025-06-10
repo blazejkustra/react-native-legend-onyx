@@ -1,6 +1,32 @@
 # Onyx
 
-A lightweight state management library built on top of [@legendapp/state](https://github.com/LegendApp/legend-state).
+A lightweight state management library built on top of [@legendapp/state](https://github.com/LegendApp/legend-state). 
+
+⚠️ This is a POC and is not ready for production.
+
+## Comparison with react-native-onyx
+
+This library aims to be a drop-in replacement for [react-native-onyx](https://github.com/Expensify/react-**native**-onyx) while providing better performance and a smaller bundle size.
+
+### In memory performance tests
+
+Tests were implemented in a popular benchmark suite: https://github.com/krausest/js-framework-benchmark (same test code for both implementations). Standard benchmark results are shown below.
+
+![Onyx Comparison (in memory)](assets/Onyx%20Comparison%20(in%20memory).png)
+
+### IndexedDB performance tests
+
+Onyx is all about persistence, so I also tested it with IndexedDB and made special test suite for that.
+
+![Onyx Comparison (indexedDB)](assets/Onyx%20Comparison%20(indexedDB).png)
+
+
+## Installation
+
+```bash
+npm i
+npm run build // this will generate the dist folder
+```
 
 ## API Reference
 
