@@ -184,6 +184,5 @@ connection.disconnect();
 
 - Evictable keys
 - Snapshots
-- persistence
-- [isOnyxMigrated, setIsOnyxMigrated] = useState(true);
+- Onyx migrations
 - disconnect inside of connect // treat it as an anti pattern
